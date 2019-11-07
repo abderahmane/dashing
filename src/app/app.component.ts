@@ -14,7 +14,7 @@ import {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnChanges, OnInit, DoCheck, AfterContentInit, AfterContentChecked,
+export class AppComponent implements OnInit, DoCheck, AfterContentInit, AfterContentChecked,
   AfterViewInit, AfterViewChecked, OnDestroy {
   title = 'dashing';
   constructor() {
@@ -43,10 +43,6 @@ export class AppComponent implements OnChanges, OnInit, DoCheck, AfterContentIni
 
   ngDoCheck(): void {
     console.log('AppComponent::ngDoCheck');
-  }
-
-  ngOnChanges(changes: SimpleChanges): void {
-    console.log('AppComponent::ngOnChanges');
   }
 
   ngOnDestroy(): void {
