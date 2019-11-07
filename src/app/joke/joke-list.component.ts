@@ -4,7 +4,7 @@ import {Joke} from './joke.model';
 @Component({
   selector: 'app-joke-list',
   template: `
-<app-joke *ngFor="let j of jokes" [joke]="j">
+<app-joke *ngFor="let j of jokes" [data]="j">
   <span class="setup">{{ j.setup }}?</span>
   <h1 class="punchline">{{ j.punchline }}</h1>
 </app-joke>

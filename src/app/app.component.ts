@@ -14,7 +14,7 @@ import {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnChanges, OnInit, DoCheck, AfterContentInit, AfterContentChecked,
+export class AppComponent implements OnInit, DoCheck, AfterContentInit, AfterContentChecked,
   AfterViewInit, AfterViewChecked, OnDestroy {
   title = 'dashing';
   constructor() {

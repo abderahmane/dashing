@@ -23,9 +23,10 @@ export class JokeComponent
     AfterViewInit,
     AfterViewChecked,
     OnDestroy {
-  @Input('joke') data: Joke;
+  @Input() data: Joke;
 
   constructor() {
+    this.data = null;
     console.log(`new - data is ${this.data}`);
   }
 
