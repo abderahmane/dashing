@@ -42,7 +42,7 @@ export class AppComponent implements OnInit, DoCheck, AfterContentInit, AfterCon
   }
 
   ngDoCheck(): void {
-    console.log('AppComponent:ngDoCheck');
+    console.log('AppComponent::ngDoCheck');
   }
 
   ngOnDestroy(): void {
