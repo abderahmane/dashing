@@ -1,5 +1,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/abderahmane/dashing/badge.svg?branch=master)](https://coveralls.io/github/abderahmane/dashing?branch=master)
 [![Build Status](https://travis-ci.org/abderahmane/dashing.svg?branch=master)](https://travis-ci.org/abderahmane/dashing)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cf96c702adbd4e5c8a466e933d9861bc)](https://www.codacy.com/manual/abderahmane/dashing?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=abderahmane/dashing&amp;utm_campaign=Badge_Grade)
 
 # Dashing
 
